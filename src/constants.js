@@ -20,7 +20,7 @@ export const MAIN = {
       "backImage":"https://i.ibb.co/5vBxpSY/bren.png"
     },
     "aboutMe":{
-      "image":"https://i.ibb.co/jLWny7n/1589192142126.jpg",
+      "image":"https://i.ibb.co/XShfFWH/t-TZRw-Q40v5-I.jpg",
       "desc":"I like to build and improve software that solves real-world business problems and creates a positive experience for users, as well as having a positive business impact for the organization. I was inspired by a high-productivity/innovative work culture—walking the line between perfection and a getting-it-done mentality.",
       "skills":[
         {
