@@ -8,7 +8,7 @@ export const MAIN = {
     "email":"danny.kaganovitch@gmail.com",
     "logo":"https://i.ibb.co/mDqB0ys/49536502-biceps-flex-arm-vector-icon.jpg",
     "facebook":"",
-    "linkedin":"https://www.linkedin.com/in/dannykg/",
+    // "linkedin":"https://www.linkedin.com/in/dannykg/",
     "twitter":"",
     "instagram":"",
     "github":"https://github.com/dannyk03",
@@ -17,7 +17,7 @@ export const MAIN = {
   "homepage":{
     "top":{
       "title":"Senior Software Engineer",
-      "backImage":"https://i.ibb.co/5r1H0Yx/New-Project.png"
+      "backImage":"https://i.ibb.co/5vBxpSY/bren.png"
     },
     "aboutMe":{
       "image":"https://i.ibb.co/jLWny7n/1589192142126.jpg",
