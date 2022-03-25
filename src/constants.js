@@ -21,8 +21,43 @@ export const MAIN = {
     },
     "aboutMe":{
       "image":"https://i.ibb.co/zhVXSGp/avatar.png",
-      "desc":"I am actively involved in corporate IT strategy for multiple companies and run an offshore/nearshore sourcing agency that provides IT resources for low-budget startups. I serve on the corporate advisory boards of multiple startups and routinely help new entrepreneurs find pathways for digital product momentum and evangelization. I am a high performance consultant who routinely accepts jobs from a variety of clients in a variety of domains.",
+      "desc":"I am an industry-specific technology expert with decade of combined experience delivering interoperable, scalable, and flexible web & mobile applications for all kinds of industries.",
       "skills":[
+        {
+          "name":"Expertise",
+          "details":[
+            {
+              "title":"Back-end",
+              "org":"",
+              "subtitle":"",
+              "desc":["Ruby/Ruby on Rails/Sinatra/Spree/Solidus/Grape", "NodeJS/ExpressJS/HapiJS/SailsJS/NestJS", "Python/Django"]
+            },
+            {
+              "title":"Front-end",
+              "org":"",
+              "subtitle":"",
+              "desc":["Javascript/Coffeescript/Es6/Typescript", "ReactJS/Next JS/GatsbyJS(SSR)", "Angular1.x/Angular2+, VueJS/NuxtJS/Vuetify"]
+            },
+            {
+              "title":"Databases",
+              "org":"",
+              "subtitle":"",
+              "desc":["PostgreSQL/MySQL/MSSQL", "MongoDB/DynamoDB/CouchDB/Cassandra", "Redis/Memcache"]
+            },
+            {
+              "title":"Testing and CI/CD Tools",
+              "org":"",
+              "subtitle":"",
+              "desc":["Rspec/Selenium/Capybara/Cucumber", "Mocha/Chai/Jasmine/Jest/Karma", "Cypress"]
+            },
+            {
+              "title":"Cloud Computing",
+              "org":"",
+              "subtitle":"",
+              "desc":["AWS/Microsoft Azure/Google Cloud/Oracle/Digital Ocean/Heroku", "Docker/Kubernetes"]
+            }
+          ]
+        },
         {
           "name":"Careers",
           "details":[
@@ -35,7 +70,7 @@ export const MAIN = {
             {
               "title":"Chief Technology Officer",
               "org":"ShyftAuto",
-              "subtitle":"Jun 2017 - Present",
+              "subtitle":"Jun 2017 - Jun 2019",
               "desc":"Shyft Auto Technology helps consumers with a new set of interfaces that redefine how consumers interact with their automotive partners. Shyft's service valet allows consumers to enjoy unprecedented freedom while optimizing their automotive service experience and meeting their maintanence needs. Shyft's partners will enjoy happier consumers and increased traffic to their locations thanks to the prestige and ease of Shyft Auto Technology innovations."
             },
             {
@@ -55,41 +90,6 @@ export const MAIN = {
               "subtitle":"Aug 2006 - May 2013",
               "desc":"Computer Science and Philosophy Double Major with a minor in Science."
             },
-          ]
-        },
-        {
-          "name":"Expertise",
-          "details":[
-            {
-              "title":"Back-end",
-              "org":"",
-              "subtitle":"",
-              "desc":"Ruby/Ruby on Rails/Sinatra/Spree/Solidus/Grape, NodeJS/ExpressJS/HapiJS/SailsJS/NestJS, Python/Django"
-            },
-            {
-              "title":"Front-end",
-              "org":"",
-              "subtitle":"",
-              "desc":"Javascript/Coffeescript/Es6/Typescript, ReactJS/Next JS/GatsbyJS(SSR), Angular1.x/Angular2+, VueJS/NuxtJS/Vuetify"
-            },
-            {
-              "title":"Databases",
-              "org":"",
-              "subtitle":"",
-              "desc":"PostgreSQL, MySQL, MongoDB, CouchDB, Cassandra, Redis"
-            },
-            {
-              "title":"Testing and CI/CD Tools",
-              "org":"",
-              "subtitle":"",
-              "desc":"Rspec/Selenium/Capybara/Cucumber, Jasmine/Jest/Cypress"
-            },
-            {
-              "title":"Cloud Computing",
-              "org":"",
-              "subtitle":"",
-              "desc":"Docker/Kubernetes, AWS, Azure, DigitalOcean, Heroku"
-            }
           ]
         },
       ]
@@ -227,10 +227,48 @@ export const PROJECTS = [
       "https://i.ibb.co/yB6XpCK/fountain-3.png",
       "https://i.ibb.co/Zd0M1g9/fountain-4.png",
     ],
-    "descOverview": "Full-stack development with ruby on rails + react / node, Multi-tenant based app composed of many micro-services, Advanced tech for background process management using enterprise sidekiq,Various 3rd party job boards integration",
+    "descOverview": "- Multi-tenant based app composed of many micro-services <br/> - Full-stack development with ruby on rails + react / node <br/> - Advanced/optimized tech for background process management using enterprise sidekiq <br/> - Various 3rd party job boards integration",
     "link": "https://www.fountain.com",
     "techStack": [
        "Ruby on Rails", "ReactJS", "PostgreSQL", "MaterialUI"
+    ],
+    "utilities": [
+    ],
+    "active": true
+  },
+  {
+    "id":"halontax",
+    "tag":"Ruby on Rails + ReactJS",
+    "title": "Tax & Bookkeeping Services",
+    "landing": "https://i.ibb.co/VS8NM5Y/halontax-1.png",
+    "images":[
+      "https://i.ibb.co/6bKh3b6/halontax-2.png",
+      "https://i.ibb.co/DY2tsdb/halontax-3.png",
+      "https://i.ibb.co/4sGpWZg/halontax-4.png",
+    ],
+    "descOverview": "- Multi-tenant based app built on ruby on rails + scala + react <br/> - Using various payment gateways including stripe, braintree, plaid <br/> - Integrated with various tax form services to accodomate the demands for different businesses",
+    "link": "https://www.halontax.com",
+    "techStack": [
+       "Ruby on Rails", "ReactJS", "PostgreSQL", "Scala"
+    ],
+    "utilities": [
+    ],
+    "active": true
+  },
+  {
+    "id":"monsido",
+    "tag":"Ruby on Rails + Angular10",
+    "title": "Monitoring and automation tools for a flawless website UX across Web Accessibility",
+    "landing": "https://i.ibb.co/YNgdwt1/monsido-1.png",
+    "images":[
+      "https://i.ibb.co/cygV62z/monsido-2.png",
+      "https://i.ibb.co/WGfJT42/monsido-3.png",
+      "https://i.ibb.co/nrnNKbp/monsido-4.png",
+    ],
+    "descOverview": "- Built with ruby-grape that supports DSL for RESTful apis <br/> - Database shard/replicas for dealing with hundreds of thousands of data <br/> - Angular10-based front-end integrated with angular material UI <br/>",
+    "link": "https://www.monsido.com",
+    "techStack": [
+       "Ruby on Rails", "Angular10", "PostgreSQL", "Angular Material UI"
     ],
     "utilities": [
     ],
@@ -280,31 +318,6 @@ export const PROJECTS = [
     ],
     "utilities": [
       "Nx", "CMS"
-    ],
-    "active": true
-  },
-  {
-    "id":"kindquiz",
-    "tag":"ExpressJS + NuxtJS",
-    "title": "Kindquiz",
-    "landing": "https://i.ibb.co/GRZD37H/screencapture-kindquiz-classic-2021-03-24-04-12-34.png",
-    "images":[
-      "https://i.ibb.co/gPNf56B/Screenshot-from-2021-03-24-04-19-49.png",
-      "https://i.ibb.co/QXf2kvw/screencapture-kindquiz-classic-2021-03-24-04-15-44-1.png",
-      "https://i.ibb.co/PjwgsYc/Screenshot-from-2021-03-24-04-17-31.png",
-      "https://i.ibb.co/hcSTQkK/Screenshot-from-2021-03-24-04-17-21.png",
-      "https://i.ibb.co/QXf2kvw/screencapture-kindquiz-classic-2021-03-24-04-15-44-1.png",
-      "https://i.ibb.co/fkqbjS4/screencapture-kindquiz-gogates-2021-03-24-04-13-22.png",
-      "https://i.ibb.co/P1BXydn/screencapture-summery-ai-2021-03-24-04-12-47.png",
-      "https://i.ibb.co/GRZD37H/screencapture-kindquiz-classic-2021-03-24-04-12-34.png"
-    ],
-    "descOverview": "AI-driven social impact engagement. Assess, activate, and align your organizational culture. <br/> Backend is build in NodeJS + Sequelize + Express, frontend is built in VueJS for admin panel, NuxtJS for quiz application, wordpress for landing pages.",
-    "link": "https://testautomationu.applitools.com",
-    "techStack": [
-       "NodeJS", "Sequelize", "Express", "PostgreSQL", "VueJS", "NuxtJS", "Wordpress"
-    ],
-    "utilities": [
-      "Google Analytics", "Firebase", "Data Extraction", "AI"
     ],
     "active": true
   },
@@ -375,44 +388,4 @@ export const PROJECTS = [
     ],
     "active": true
   },
-  {
-    "id": "joice-mobile",
-    "tag":"React Native",
-    "title": "Joice Mobile",
-    "landing": "https://i.ibb.co/0Q3vqxC/Screenshot-from-2021-03-24-03-19-47.png",
-    "images": [
-       "https://i.ibb.co/0Q3vqxC/Screenshot-from-2021-03-24-03-19-47.png"
-    ],
-    "desc": [
-       "Collaborated with the product manager to develop features.",
-       "Analyzed the requirements and estimated the effort.",
-       "Designed the software architecture, then coded the feature, and also wrote the unit and E2E tests.",
-       "Led a refactoring project on the front-end. The old codebase was based on AngularJS which lacked modularity and had a lot of coupling.",
-       "Analyzed the requirements and our current architecture; then borrowing concepts from React/Redux, designed a new architecture for our codebase.",
-       "Created a customized web component (AngularJS and Redux) to make the codebase more modular and much easier for future development.",
-       "Migrated the current product (which was AngularJS) and rewrote every screen with Angular 6 from scratch.",
-       "Migrated some UI logic from the old codebase; used Angular and ng2-redux."
-    ],
-    "techStack": [
-       "TypeScript", "React Native", "Redux", "React", "Webpack", "iOS", "Android"
-    ],
-    "active": true
-  },
-  {
-    "id": "artilia",
-    "tag":"React Native + Vue SSR / ReactJS",
-    "title": "Joice Mobile",
-    "landing": "https://i.ibb.co/3p4JYDS/Screenshot-from-2021-03-24-03-30-21.png",
-    "images": [
-      "https://i.ibb.co/3p4JYDS/Screenshot-from-2021-03-24-03-30-21.png",
-      "https://i.ibb.co/XyKyVg2/Screenshot-from-2021-03-24-03-29-02.png",
-      "https://i.ibb.co/vYWykFc/Screenshot-from-2021-03-24-03-28-47.png"
-    ],
-    "link": "https://artiliamade.com/",
-    "descOverview":  "eCcommerce website for selling unique kid-created art pieces. Based on the WordPress platform with a custom shopping process, products, and user experience. <br/> The scope of work included implementing client designs and user journeys.",
-    "techStack": [
-       "Amazon Web Services (AWS)", "Cucumber", "AWS", "Vue SSR", "Mocha", "Cypress.io", "PHP", "React", "JavaScript"
-    ],
-    "active": true
-  }
 ]

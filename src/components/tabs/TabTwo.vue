@@ -24,7 +24,14 @@
                       <span v-if="detail.org"> - {{ detail.org }} </span>
                       <span v-if="detail.subtitle"> ({{detail.subtitle}}) </span>
                     </a>
-                    {{ detail.desc }}
+                    <span v-if="!Array.isArray(detail.desc)">
+                      {{ detail.desc }}
+                    </span>
+                    <ul v-if="Array.isArray(detail.desc)" class="list-style--2">
+                      <li v-for="(description, k) in detail.desc" :key="k">
+                        {{ description }}
+                      </li>
+                    </ul>
                   </li>
                 </ul>
               </div>
