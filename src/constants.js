@@ -17,41 +17,41 @@ export const MAIN = {
   "homepage":{
     "top":{
       "title":"Senior Software Engineer",
-      "backImage":"https://i.ibb.co/T2JpSvj/whoami.png"
+      "backImage":"https://i.ibb.co/TM3LdDN/whoami-1.png"
     },
     "aboutMe":{
-      "image":"https://i.ibb.co/zhVXSGp/avatar.png",
+      "image":"https://i.ibb.co/1npX09K/avatar.jpg",
       "desc":"I am an industry-specific technology expert with decade of combined experience delivering interoperable, scalable, and flexible web & mobile applications for all kinds of industries.",
       "skills":[
         {
           "name":"Expertise",
           "details":[
             {
-              "title":"Back-end",
+              "title":"1. Back-end",
               "org":"",
               "subtitle":"",
               "desc":["Ruby/Ruby on Rails/Sinatra/Spree/Solidus/Grape", "NodeJS/ExpressJS/HapiJS/SailsJS/NestJS", "Python/Django"]
             },
             {
-              "title":"Front-end",
+              "title":"2. Front-end",
               "org":"",
               "subtitle":"",
-              "desc":["Javascript/Coffeescript/Es6/Typescript", "ReactJS/Next JS/GatsbyJS(SSR)", "Angular1.x/Angular2+, VueJS/NuxtJS/Vuetify"]
+              "desc":["Javascript/Coffeescript/es6/Typescript", "ReactJS/Next JS/GatsbyJS(SSR)", "Angular1.x/Angular2+", "VueJS/NuxtJS/Vuetify"]
             },
             {
-              "title":"Databases",
+              "title":"3. Storage",
               "org":"",
               "subtitle":"",
-              "desc":["PostgreSQL/MySQL/MSSQL", "MongoDB/DynamoDB/CouchDB/Cassandra", "Redis/Memcache"]
+              "desc":["PostgreSQL/MySQL/MSSQL", "MongoDB/DynamoDB/CouchDB/Cassandra", "Elasticsearch/Algoliasearch", "Redis/Memcache"]
             },
             {
-              "title":"Testing and CI/CD Tools",
+              "title":"4. Test",
               "org":"",
               "subtitle":"",
-              "desc":["Rspec/Selenium/Capybara/Cucumber", "Mocha/Chai/Jasmine/Jest/Karma", "Cypress"]
+              "desc":["Rspec/Selenium/Capybara/Cucumber", "Mocha/Chai/Jasmine/Jest/Karma", "Cypress/Solidity/Zapier/Work automation"]
             },
             {
-              "title":"Cloud Computing",
+              "title":"5. DevOps",
               "org":"",
               "subtitle":"",
               "desc":["AWS/Microsoft Azure/Google Cloud/Oracle/Digital Ocean/Heroku", "Docker/Kubernetes"]
@@ -65,7 +65,7 @@ export const MAIN = {
               "title":"Founder",
               "org":"Linked NC",
               "subtitle":"Jun 2019 - Present",
-              "desc":"Multi-area technology evangelism and a market network of technology services aimed at efficient and rapid technology growth in new companies."
+              "desc":"Working as an independent freelancer with Ruby on Rails and many variants of Javascript technologies."
             },
             {
               "title":"Chief Technology Officer",
@@ -98,7 +98,7 @@ export const MAIN = {
       "desc":"",
     },
     "projects":{
-      "desc":"Below are the most recent accomplishments I worked alone or worked as a lead or a core team member.",
+      "desc":"Representative apps I have built through last 10 years are described below",
     },
     "news":[
 
@@ -230,7 +230,7 @@ export const PROJECTS = [
     "descOverview": "- Multi-tenant based app composed of many micro-services <br/> - Full-stack development with ruby on rails + react / node <br/> - Advanced/optimized tech for background process management using enterprise sidekiq <br/> - Various 3rd party job boards integration",
     "link": "https://www.fountain.com",
     "techStack": [
-       "Ruby on Rails", "ReactJS", "PostgreSQL", "MaterialUI"
+       "Ruby on Rails", "ReactJS", "PostgreSQL", "MaterialUI", "Elasticsearch"
     ],
     "utilities": [
     ],
@@ -249,7 +249,26 @@ export const PROJECTS = [
     "descOverview": "- Multi-tenant based app built on ruby on rails + scala + react <br/> - Using various payment gateways including stripe, braintree, plaid <br/> - Integrated with various tax form services to accodomate the demands for different businesses",
     "link": "https://www.halontax.com",
     "techStack": [
-       "Ruby on Rails", "ReactJS", "PostgreSQL", "Scala"
+       "Ruby on Rails", "ReactJS", "PostgreSQL", "Scala", "Redis", "Sidekiq"
+    ],
+    "utilities": [
+    ],
+    "active": true
+  },
+  {
+    "id":"dstld",
+    "tag":"Spree/Solidus + Angular1.6",
+    "title": "E-commerce Platform",
+    "landing": "https://i.ibb.co/NmXCmsg/dstld-1.png",
+    "images":[
+      "https://i.ibb.co/C681VKs/dstld-2.png",
+      "https://i.ibb.co/0rTT0tc/dstld-3.png",
+      "https://i.ibb.co/cxyrVSy/dstld-4.png",
+    ],
+    "descOverview": "- Spree/Solidus based e-commerce platform <br/> - Full customization over orders, shipments, products, promotions <br/> - User-friendly look/feel",
+    "link": "https://www.dstld.com",
+    "techStack": [
+       "Ruby on Rails", "Spree", "Solidus", "AngularJS", "PostgreSQL", "Elasticsearch"
     ],
     "utilities": [
     ],
@@ -269,6 +288,25 @@ export const PROJECTS = [
     "link": "https://www.monsido.com",
     "techStack": [
        "Ruby on Rails", "Angular10", "PostgreSQL", "Angular Material UI"
+    ],
+    "utilities": [
+    ],
+    "active": true
+  },
+  {
+    "id":"healthiq",
+    "tag":"Ruby on Rails + BackbonJS",
+    "title": "Engage with your health and earn rewards",
+    "landing": "https://i.ibb.co/6JG8Tgm/healthiq-1.png",
+    "images":[
+      "https://i.ibb.co/J7BTM3s/healthiq-2.png",
+      "https://i.ibb.co/sqyYLHN/healthiq-3.png",
+      "https://i.ibb.co/hyT5z7W/healthiq-4.png",
+    ],
+    "descOverview": "- Built on ruby on rails + backboneJS <br/> - Hippa Compliance App <br/> - Insurance form management <br/>",
+    "link": "https://www.healthiq.com",
+    "techStack": [
+       "Ruby on Rails", "BackboneJS", "MySQL"
     ],
     "utilities": [
     ],
@@ -318,53 +356,6 @@ export const PROJECTS = [
     ],
     "utilities": [
       "Nx", "CMS"
-    ],
-    "active": true
-  },
-  {
-    "id":"testautomation-u",
-    "tag":"Firebase + Vuepress",
-    "title": "Test Automation University",
-    "landing": "https://i.ibb.co/pzRjym4/Screenshot-from-2021-03-24-04-09-00.png",
-    "images":[
-      "https://i.ibb.co/pzRjym4/Screenshot-from-2021-03-24-04-09-00.png",
-      "https://i.ibb.co/PTGxfqS/Screenshot-from-2021-03-24-04-08-45.png",
-      "https://i.ibb.co/BqK76pT/Screenshot-from-2021-03-24-04-08-36.png",
-      "https://i.ibb.co/YjyxrDM/Screenshot-from-2021-03-24-04-07-57.png",
-      "https://i.ibb.co/jMS8L1k/Screenshot-from-2021-03-24-04-07-15.png",
-      "https://i.ibb.co/cb4tsFS/screencapture-testautomationu-applitools-learningpaths-html-2021-03-24-04-04-55.png",
-      "https://i.ibb.co/DD206Jz/screencapture-testautomationu-applitools-me-html-2021-03-24-04-04-04.png",
-      "https://i.ibb.co/fGtdKp5/Screenshot-from-2021-03-24-04-02-45.png",
-      "https://i.ibb.co/3FXx8V9/Screenshot-from-2021-03-24-04-00-11.png",
-      "https://i.ibb.co/HCMbsTj/Screenshot-from-2021-03-24-03-59-57.png",
-    ],
-    "descOverview": "Learning platform developed as a marketing tool of Applitools.",
-    "link": "https://testautomationu.applitools.com",
-    "techStack": [
-       "Firebase", "NodeJS", "Typescript", "Frontend - Vuepress(Vue)"
-    ],
-    "utilities": [
-      "imagemagic", "ffmpeg", "markdown"
-    ],
-    "active": true
-  },
-  {
-    "id": "platform-purple",
-    "tag":"Electron + VueJS",
-    "title": "Platform purple",
-    "landing": "https://i.ibb.co/m83pzvZ/Screenshot-from-2021-03-24-03-10-18.png",
-    "images": [
-       "https://i.ibb.co/m83pzvZ/Screenshot-from-2021-03-24-03-10-18.png",
-       "https://i.ibb.co/K2XXjv9/Screenshot-from-2021-03-24-03-09-25.png"
-    ],
-    "desc": [
-       "Worked with a team of software engineers on a content distribution platform that serves millions of users.",
-       "Wrote front-end code for pre-sale, consumption stage, and administration/dashboard side pages.",
-       "Maintained a React-and-Electron desktop application for The Discovery Channel.",
-       "Translated the React-based Electron Discovery Channel application into Vue.js, Electron, and Cordova to deliver a mobile as well as the desktop experience."
-    ],
-    "techStack": [
-       "Electron", "Cordova", "CSS", "HTML5", "JavaScript", "React", "Vue.js"
     ],
     "active": true
   },

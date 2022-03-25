@@ -1,5 +1,5 @@
 <template>
-  <v-row class="row--35" align="center">
+  <v-row class="row--35">
     <v-col lg="6" md="6" cols="12">
       <div class="thumbnail">
         <img

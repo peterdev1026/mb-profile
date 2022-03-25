@@ -1,7 +1,7 @@
 <template>
-  <v-row class="row--35" align="center">
+  <v-row class="row--35">
     <v-col lg="5" md="5" cols="12">
-      <div class="thumbnail">
+      <div class="thumbnail pt--100 pt_sm--40 pt_md--40">
         <slot name="thum-img"></slot>
       </div>
     </v-col>
