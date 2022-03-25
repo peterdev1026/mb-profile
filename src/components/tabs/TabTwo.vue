@@ -17,10 +17,13 @@
             <v-card-text>
               <div class="single-tab-content">
                 <ul>
+
                   <li v-for="(detail, i) in item.details" :key="i">
                     <a
                       >{{ detail.title }}
-                      <span> - {{ detail.org }} ({{ detail.subtitle }}) </span></a>
+                      <span v-if="detail.org"> - {{ detail.org }} </span>
+                      <span v-if="detail.subtitle"> ({{detail.subtitle}}) </span>
+                    </a>
                     {{ detail.desc }}
                   </li>
                 </ul>
