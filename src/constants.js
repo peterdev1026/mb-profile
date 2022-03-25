@@ -95,7 +95,7 @@ export const MAIN = {
       ]
     },
     "services":{
-      "desc":"I am an industry-specific technology expert with decade of combined experience delivering interoperable, scalable, and flexible web & mobile applications for all kinds of industries.",
+      "desc":"",
     },
     "projects":{
       "desc":"Below are the most recent accomplishments I worked alone or worked as a lead or a core team member.",
