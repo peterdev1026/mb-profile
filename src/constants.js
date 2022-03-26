@@ -17,7 +17,7 @@ export const MAIN = {
   "homepage":{
     "top":{
       "title":"Senior Software Engineer",
-      "backImage":"https://i.ibb.co/TM3LdDN/whoami-1.png"
+      "backImage":"https://i.ibb.co/f1YFbp5/whoami-1.png"
     },
     "aboutMe":{
       "image":"https://i.ibb.co/1npX09K/avatar.jpg",
