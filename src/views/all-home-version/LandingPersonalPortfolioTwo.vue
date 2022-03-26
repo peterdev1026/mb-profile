@@ -10,6 +10,12 @@
         :style="{ 'background-image': `url(${CONSTS.MAIN.homepage.top.backImage})` }"
       >
         <div style="height: 300px" />
+        <BannerThree>
+          <span slot="designation"><span style="color: #000">{{ CONSTS.MAIN.homepage.top.title }}</span></span>
+          <h1 class="heading-title" slot="heading-title">
+            I’m <span>{{ CONSTS.MAIN.basic.firstName }}</span> Welcome to my World.
+          </h1>
+        </BannerThree>
       </div>
     </div>
     <!-- End Slider Area -->
@@ -18,12 +24,6 @@
     <div class="section about-area rn-section-gap bg_color--1" id="about">
       <div class="about-wrapper">
         <div class="container">
-          <BannerThree>
-            <span slot="designation"><span style="color: #FFF">{{ CONSTS.MAIN.homepage.top.title }}</span></span>
-            <h1 class="heading-title" slot="heading-title">
-              I’m <span>{{ CONSTS.MAIN.basic.firstName }}</span> Welcome to my World.
-            </h1>
-          </BannerThree>
           <AboutFour>
             <img
               slot="thum-img"
@@ -80,7 +80,7 @@
         <v-row>
           <v-col lg="12">
             <div class="section-title section-title--2 text-center mb--20">
-              
+
               <div class="d-flex align-center justify-center">
                 <h2 class="heading-title mr-2">
                   My Latest Project

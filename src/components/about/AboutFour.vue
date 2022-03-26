@@ -1,12 +1,12 @@
 <template>
   <v-row class="row--35">
     <v-col lg="5" md="5" cols="12">
-      <div class="thumbnail pt--100 pt_sm--40 pt_md--40">
+      <div class="thumbnail pt_sm--40 pt_md--40">
         <slot name="thum-img"></slot>
       </div>
     </v-col>
     <v-col lg="7" md="7" cols="12">
-      <div class="about-inner inner pt--100 pt_sm--40 pt_md--40">
+      <div class="about-inner inner pt_sm--40 pt_md--40">
         <div class="section-title">
           <div class="d-flex align-center">
             <h2 class="heading-title mr-2">
