@@ -275,6 +275,46 @@ export const PROJECTS = [
     "active": true
   },
   {
+    "id": "milanote",
+    "tag":"ExpressJS + ReactJS",
+    "title": "Easy-to-use tool to organize your ideas and projects into visual boards.",
+    "landing": "https://i.ibb.co/74dHtTf/milanote-1.png",
+    "images": [
+       "https://i.ibb.co/HhbHvdy/milanote-2.png",
+       "https://i.ibb.co/QNrST2w/milanote-3.png",
+       "https://i.ibb.co/5KyCvpq/milanote-4.png",
+       "https://i.ibb.co/f1KNfDh/milanote-5.png",
+    ],
+    "descOverview": "Built on MERN stack. <br/> TikTok API integration. <br/> Drag & Drop component",
+    "techStack": [
+       "ReactJS", "Redux", "Bootstrap", "MongoDB", "TikTok API", "Hotjar", "AWS"
+    ],
+    "active": true
+  },
+  {
+    "id":"cap-business",
+    "tag":"NestJS + ReactJS",
+    "title": "Cap Business Plan/Decision Application",
+    "landing": "https://i.ibb.co/2hg6jtD/screencapture-capimpact-2021-03-24-04-34-27.png",
+    "images":[
+      "https://i.ibb.co/8PDkvRH/Screenshot-from-2021-03-24-04-37-07.png",
+      "https://i.ibb.co/3fjcmWS/Screenshot-from-2021-03-24-04-36-37.png",
+      "https://i.ibb.co/xg9tnKG/Screenshot-from-2021-03-24-04-36-25.png",
+      "https://i.ibb.co/9vDCYH3/screencapture-54-88-176-131-3000-2021-03-24-04-36-05.png",
+      "https://i.ibb.co/3mFKbjT/screencapture-54-88-176-131-3001-docs-2021-03-24-04-35-52.png",
+      "https://i.ibb.co/prJFLfH/screencapture-clearprism-2021-03-24-04-34-53.png",
+      "https://i.ibb.co/2hg6jtD/screencapture-capimpact-2021-03-24-04-34-27.png"
+    ],
+    "descOverview": "CapBusiness tool for compaines, <br/> Backend is built in NestJS + PostgreSQL. Frontend is built in React",
+    "link": "https://testautomationu.applitools.com",
+    "techStack": [
+       "NodeJS", "Typescript", "NestJS", "PostgreSQL", "React", "MaterialUI"
+    ],
+    "utilities": [
+    ],
+    "active": true
+  },
+  {
     "id":"monsido",
     "tag":"Ruby on Rails + Angular10",
     "title": "Monitoring and automation tools for a flawless website UX across Web Accessibility",
@@ -313,32 +353,9 @@ export const PROJECTS = [
     "active": true
   },
   {
-    "id":"cap-business",
-    "tag":"NestJS + ReactJS",
-    "title": "Cap Business Plan/Decision Application",
-    "landing": "https://i.ibb.co/2hg6jtD/screencapture-capimpact-2021-03-24-04-34-27.png",
-    "images":[
-      "https://i.ibb.co/8PDkvRH/Screenshot-from-2021-03-24-04-37-07.png",
-      "https://i.ibb.co/3fjcmWS/Screenshot-from-2021-03-24-04-36-37.png",
-      "https://i.ibb.co/xg9tnKG/Screenshot-from-2021-03-24-04-36-25.png",
-      "https://i.ibb.co/9vDCYH3/screencapture-54-88-176-131-3000-2021-03-24-04-36-05.png",
-      "https://i.ibb.co/3mFKbjT/screencapture-54-88-176-131-3001-docs-2021-03-24-04-35-52.png",
-      "https://i.ibb.co/prJFLfH/screencapture-clearprism-2021-03-24-04-34-53.png",
-      "https://i.ibb.co/2hg6jtD/screencapture-capimpact-2021-03-24-04-34-27.png"
-    ],
-    "descOverview": "CapBusiness tool for compaines, <br/> Backend is built in NestJS + PostgreSQL. Frontend is built in React",
-    "link": "https://testautomationu.applitools.com",
-    "techStack": [
-       "NodeJS", "Typescript", "NestJS", "PostgreSQL", "React", "MaterialUI"
-    ],
-    "utilities": [
-    ],
-    "active": true
-  },
-  {
     "id":"openmined-courses",
     "tag":"ExpressJS + ReactJS + Firebase",
-    "title": "Openmined Courses",
+    "title": "Learn how privacy technology is changing our world and how you can lead the charge.",
     "landing": "https://i.ibb.co/ryy15z5/screencapture-courses-openmined-org-2021-03-24-04-26-09.png",
     "images":[
       "https://i.ibb.co/cF4zkJD/Screenshot-from-2021-03-24-04-29-00.png",
@@ -376,6 +393,23 @@ export const PROJECTS = [
     ],
     "techStack": [
        "TypeScript", "RxJS", "Redux", "React", "Webpack", "Web UI", "ECharts", "PostCSS"
+    ],
+    "active": true
+  },
+  {
+    "id": "justaskme",
+    "tag":"ExpressJS + ReactJS",
+    "title": "JustAskme gives you the opportunity to earn Every Time You answer a question. ",
+    "landing": "https://i.ibb.co/CVCk5xp/justaskme-1.png",
+    "images": [
+       "https://i.ibb.co/CtVNSH7/justaskme-2.png",
+       "https://i.ibb.co/C7tVT1q/justaskme-3.png",
+       "https://i.ibb.co/LYWsYKG/justaskme-4.png",
+       "https://i.ibb.co/cb8P5fz/justaskme-5.png",
+    ],
+    "descOverview": "Built on MERN stack. <br/> React Material UI integration. <br/> Stripe payment gateway integration.",
+    "techStack": [
+       "ReactJS", "Redux", "React Material UI", "MongoDB", "Azure",
     ],
     "active": true
   },
