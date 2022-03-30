@@ -232,6 +232,7 @@ export const PROJECTS = [
       "Master/Slave db setup with PostgreSQL",
       "Elasticsearch integration",
       "Stripe/Chargebee Payment Gateway integration",
+      "GoodHire/HireRight Integration",
       "Advanced/optimized tech for background process management using enterprise sidekiq",
       "Various 3rd party job boards integration",
     ],
@@ -256,6 +257,8 @@ export const PROJECTS = [
     "desc": [
       "Multi-tenant based app with dedicated micro-services for different types of tax form",
       "Using resourceful payment gateways including stripe, braintree, amazonpay, plaid, etc",
+      "Accurate Background check/Sterling/Recruitics integration",
+      "HelloSign/Docusign Integration",
       "Number of cron jobs to manage the different customer requests",
       "Integrated with 3rd party tax form services to accodomate the demands for different businesses",
     ],
@@ -281,7 +284,7 @@ export const PROJECTS = [
       "Spree/Solidus based e-commerce platform",
       "Full customization over orders, shipments, products, promotions",
       "Integrated with 3rd party shipment services like Shippo and FreightPOP",
-      "Google analytics with tag manager",
+      "Google Analytics/Adwords/Tag Manager Integration",
       "Push notification using Onesignal",
     ],
     "link": "https://www.dstld.com",
@@ -307,6 +310,7 @@ export const PROJECTS = [
       "Typescript based RESTful api server built on express.",
       "TikTok API integration.",
       "Drag & Drop Form",
+      "Vetty/Ubble integration",
       "Hotjar api integration",
     ],
     "techStack": [
@@ -378,6 +382,7 @@ export const PROJECTS = [
       "Built on ruby on rails + backboneJS",
       "Hippa Compliance App",
       "Insurance form management",
+      "Yardstik/Zapier integration"
     ],
     "link": "https://www.healthiq.com",
     "techStack": [
@@ -406,6 +411,7 @@ export const PROJECTS = [
       "Backend bulit in Firebase clouding functions and firestore.",
       "Frontend built in React and latest Hooks.",
       "Content management using CMS.",
+      "Verifiable/Lessonly Integration",
     ],
     "link": "https://courses.openmined.org/",
     "techStack": [
@@ -429,7 +435,7 @@ export const PROJECTS = [
        "Owned the hiring and onboarding of new UI developers.",
        "Integrated with Intercom, Upscope, and WalkMe to provide a premium experience educating and helping users.",
        "Collaborated with product management to make decisions on what features are most valuable.",
-       "Led a team of five software developers to implement the UI for all new product features."
+       "Led a team of five software developers to implement the UI for all new product features.",
     ],
     "techStack": [
        "TypeScript", "RxJS", "Redux", "React", "Webpack", "Web UI", "ECharts", "PostCSS"

@@ -92,8 +92,9 @@
               class="rn-button-style--2 btn_solid"
               type="submit"
               value="submit"
+              :disabled="!isSubmittable"
             >
-              Submit
+              {{ formData.submit}}
             </button>
           </form>
         </ValidationObserver>
@@ -112,8 +113,10 @@
 </template>
 
 <script>
+  import emailjs from '@emailjs/browser';
   import { ValidationObserver } from "vee-validate";
   import { ValidationProvider } from "vee-validate/dist/vee-validate.full.esm";
+
   export default {
     components: {
       ValidationObserver,
@@ -126,12 +129,26 @@
           email: "",
           subject: "",
           message: "",
+          submit: 'Submit',
         },
+        isSubmittable: true,
       };
     },
     methods: {
       onSubmit() {
-        console.log(this.formData);
+        emailjs.send('service_cv04q6q', 'template_jmhacxx', {
+          from_name: this.formData.name,
+          from_email: this.formData.email,
+          subject: this.formData.subject,
+          message: this.formData.message,
+        }, 'QpTnpP14gPrcZrE-S')
+          .then((result) => {
+            this.formData.submit = 'submitted'
+            this.isSubmittable = false
+          }, (error) => {
+            this.formData.submit = 'submitted'
+            this.isSubmittable = false
+          });
       },
     },
   };
