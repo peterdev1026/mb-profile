@@ -22,7 +22,7 @@
       <div class="section-title text-left mb--50 mb_sm--30 mb_md--30">
         <h2 class="heading-title">or Contact Me.</h2>
         <p class="description">
-          I will reach back as soon as I get the request. 
+          I will reach back as soon as I get the request.
         </p>
       </div>
       <div class="form-wrapper">

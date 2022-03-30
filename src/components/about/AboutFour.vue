@@ -9,12 +9,17 @@
       <div class="about-inner inner pt_sm--40 pt_md--40">
         <div class="section-title">
           <div class="d-flex align-center">
-            <h2 class="heading-title mr-2">
+            <v-img
+              src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/facebook/304/face-savoring-food_1f60b.png"
+              :max-width="50"
+            />
+
+            <h2 class="heading-title ml-2 mr-2">
               About Me
             </h2>
 
             <v-img
-              src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/72/twitter/281/face-savoring-food_1f60b.png"
+              src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/facebook/304/face-savoring-food_1f60b.png"
               :max-width="50"
             />
           </div>

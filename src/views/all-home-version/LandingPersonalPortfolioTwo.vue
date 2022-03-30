@@ -55,7 +55,7 @@
                 </h2>
 
                 <v-img
-                  src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/72/twitter/281/flexed-biceps_1f4aa.png"
+                  src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/325/fire_1f525.png"
                   :max-width="50"
                 />
               </div>
@@ -88,7 +88,7 @@
                 </h2>
 
                 <v-img
-                  src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/72/twitter/281/man-technologist-light-skin-tone_1f468-1f3fb-200d-1f4bb.png"
+                  src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/325/trophy_1f3c6.png"
                   :max-width="50"
                 />
               </div>

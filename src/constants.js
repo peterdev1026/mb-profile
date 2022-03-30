@@ -227,10 +227,10 @@ export const PROJECTS = [
       "https://i.ibb.co/yB6XpCK/fountain-3.png",
       "https://i.ibb.co/Zd0M1g9/fountain-4.png",
     ],
-    "descOverview": "- Multi-tenant based app composed of many micro-services <br/> - Full-stack development with ruby on rails + react / node <br/> - Advanced/optimized tech for background process management using enterprise sidekiq <br/> - Various 3rd party job boards integration",
+    "descOverview": "- Multi-tenant based enterprise app composed of many micro-services <br/> <br/> - Master/Slave db setup with PostgreSQL <br/> - Elasticsearch integration <br/> - Stripe/Chargebee Payment Gateway integration <br/>- Advanced/optimized tech for background process management using enterprise sidekiq <br/> - Various 3rd party job boards integration",
     "link": "https://www.fountain.com",
     "techStack": [
-       "Ruby on Rails", "ReactJS", "PostgreSQL", "MaterialUI", "Elasticsearch"
+       "Ruby on Rails", "ReactJS", "NodeJS", "PostgreSQL", "MaterialUI", "Elasticsearch"
     ],
     "utilities": [
     ],
@@ -246,7 +246,7 @@ export const PROJECTS = [
       "https://i.ibb.co/DY2tsdb/halontax-3.png",
       "https://i.ibb.co/4sGpWZg/halontax-4.png",
     ],
-    "descOverview": "- Multi-tenant based app built on ruby on rails + scala + react <br/> - Using various payment gateways including stripe, braintree, plaid <br/> - Integrated with various tax form services to accodomate the demands for different businesses",
+    "descOverview": "- Multi-tenant based app with dedicated micro-services for different types of tax form <br/> - Using resourceful payment gateways including stripe, braintree, amazonpay, plaid, etc <br/> - Number of cron jobs to manage the different customer requests <br/> - Integrated with 3rd party tax form services to accodomate the demands for different businesses",
     "link": "https://www.halontax.com",
     "techStack": [
        "Ruby on Rails", "ReactJS", "PostgreSQL", "Scala", "Redis", "Sidekiq"
@@ -259,13 +259,13 @@ export const PROJECTS = [
     "id":"dstld",
     "tag":"Spree/Solidus + Angular1.6",
     "title": "E-commerce Platform",
-    "landing": "https://i.ibb.co/NmXCmsg/dstld-1.png",
+    "landing": "https://i.ibb.co/cxyrVSy/dstld-4.png",
     "images":[
       "https://i.ibb.co/C681VKs/dstld-2.png",
       "https://i.ibb.co/0rTT0tc/dstld-3.png",
       "https://i.ibb.co/cxyrVSy/dstld-4.png",
     ],
-    "descOverview": "- Spree/Solidus based e-commerce platform <br/> - Full customization over orders, shipments, products, promotions <br/> - User-friendly look/feel",
+    "descOverview": "- Spree/Solidus based e-commerce platform <br/> - Full customization over orders, shipments, products, promotions <br/> - Integrated with 3rd party shipment services like Shippo and FreightPOP <br/> - Google analytics with tag manager <br/> - Push notification using Onesignal",
     "link": "https://www.dstld.com",
     "techStack": [
        "Ruby on Rails", "Spree", "Solidus", "AngularJS", "PostgreSQL", "Elasticsearch"
@@ -277,7 +277,7 @@ export const PROJECTS = [
   {
     "id": "milanote",
     "tag":"ExpressJS + ReactJS",
-    "title": "Easy-to-use tool to organize your ideas and projects into visual boards.",
+    "title": "Easy-to-use tool to organize the projects into visual boards.",
     "landing": "https://i.ibb.co/74dHtTf/milanote-1.png",
     "images": [
        "https://i.ibb.co/HhbHvdy/milanote-2.png",
@@ -285,9 +285,9 @@ export const PROJECTS = [
        "https://i.ibb.co/5KyCvpq/milanote-4.png",
        "https://i.ibb.co/f1KNfDh/milanote-5.png",
     ],
-    "descOverview": "Built on MERN stack. <br/> TikTok API integration. <br/> Drag & Drop component",
+    "descOverview": "- Typescript based RESTful api server built on express. <br/> - TikTok API integration. <br/> - Drag & Drop Form <br/> - Hotjar api integration",
     "techStack": [
-       "ReactJS", "Redux", "Bootstrap", "MongoDB", "TikTok API", "Hotjar", "AWS"
+       "ReactJS", "Redux", "Bootstrap", "MongoDB", , "AWS"
     ],
     "active": true
   },
