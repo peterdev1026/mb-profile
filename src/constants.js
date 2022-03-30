@@ -227,7 +227,14 @@ export const PROJECTS = [
       "https://i.ibb.co/yB6XpCK/fountain-3.png",
       "https://i.ibb.co/Zd0M1g9/fountain-4.png",
     ],
-    "descOverview": "- Multi-tenant based enterprise app composed of many micro-services <br/> <br/> - Master/Slave db setup with PostgreSQL <br/> - Elasticsearch integration <br/> - Stripe/Chargebee Payment Gateway integration <br/>- Advanced/optimized tech for background process management using enterprise sidekiq <br/> - Various 3rd party job boards integration",
+    "desc": [
+      "Multi-tenant based enterprise app composed of many micro-services",
+      "Master/Slave db setup with PostgreSQL",
+      "Elasticsearch integration",
+      "Stripe/Chargebee Payment Gateway integration",
+      "Advanced/optimized tech for background process management using enterprise sidekiq",
+      "Various 3rd party job boards integration",
+    ],
     "link": "https://www.fountain.com",
     "techStack": [
        "Ruby on Rails", "ReactJS", "NodeJS", "PostgreSQL", "MaterialUI", "Elasticsearch"
@@ -246,7 +253,12 @@ export const PROJECTS = [
       "https://i.ibb.co/DY2tsdb/halontax-3.png",
       "https://i.ibb.co/4sGpWZg/halontax-4.png",
     ],
-    "descOverview": "- Multi-tenant based app with dedicated micro-services for different types of tax form <br/> - Using resourceful payment gateways including stripe, braintree, amazonpay, plaid, etc <br/> - Number of cron jobs to manage the different customer requests <br/> - Integrated with 3rd party tax form services to accodomate the demands for different businesses",
+    "desc": [
+      "Multi-tenant based app with dedicated micro-services for different types of tax form",
+      "Using resourceful payment gateways including stripe, braintree, amazonpay, plaid, etc",
+      "Number of cron jobs to manage the different customer requests",
+      "Integrated with 3rd party tax form services to accodomate the demands for different businesses",
+    ],
     "link": "https://www.halontax.com",
     "techStack": [
        "Ruby on Rails", "ReactJS", "PostgreSQL", "Scala", "Redis", "Sidekiq"
@@ -265,7 +277,13 @@ export const PROJECTS = [
       "https://i.ibb.co/0rTT0tc/dstld-3.png",
       "https://i.ibb.co/cxyrVSy/dstld-4.png",
     ],
-    "descOverview": "- Spree/Solidus based e-commerce platform <br/> - Full customization over orders, shipments, products, promotions <br/> - Integrated with 3rd party shipment services like Shippo and FreightPOP <br/> - Google analytics with tag manager <br/> - Push notification using Onesignal",
+    "desc": [
+      "Spree/Solidus based e-commerce platform",
+      "Full customization over orders, shipments, products, promotions",
+      "Integrated with 3rd party shipment services like Shippo and FreightPOP",
+      "Google analytics with tag manager",
+      "Push notification using Onesignal",
+    ],
     "link": "https://www.dstld.com",
     "techStack": [
        "Ruby on Rails", "Spree", "Solidus", "AngularJS", "PostgreSQL", "Elasticsearch"
@@ -285,9 +303,14 @@ export const PROJECTS = [
        "https://i.ibb.co/5KyCvpq/milanote-4.png",
        "https://i.ibb.co/f1KNfDh/milanote-5.png",
     ],
-    "descOverview": "- Typescript based RESTful api server built on express. <br/> - TikTok API integration. <br/> - Drag & Drop Form <br/> - Hotjar api integration",
+    "desc": [
+      "Typescript based RESTful api server built on express.",
+      "TikTok API integration.",
+      "Drag & Drop Form",
+      "Hotjar api integration",
+    ],
     "techStack": [
-       "ReactJS", "Redux", "Bootstrap", "MongoDB", , "AWS"
+       "ReactJS", "Redux", "Bootstrap", "MongoDB", "AWS"
     ],
     "active": true
   },
@@ -305,7 +328,11 @@ export const PROJECTS = [
       "https://i.ibb.co/prJFLfH/screencapture-clearprism-2021-03-24-04-34-53.png",
       "https://i.ibb.co/2hg6jtD/screencapture-capimpact-2021-03-24-04-34-27.png"
     ],
-    "descOverview": "CapBusiness tool for compaines, <br/> Backend is built in NestJS + PostgreSQL. Frontend is built in React",
+    "desc": [
+      "CapBusiness tool for compaines",
+      "Backend built in NestJS + PostgreSQL.",
+      "Frontend built in React",
+    ],
     "link": "https://testautomationu.applitools.com",
     "techStack": [
        "NodeJS", "Typescript", "NestJS", "PostgreSQL", "React", "MaterialUI"
@@ -324,7 +351,11 @@ export const PROJECTS = [
       "https://i.ibb.co/WGfJT42/monsido-3.png",
       "https://i.ibb.co/nrnNKbp/monsido-4.png",
     ],
-    "descOverview": "- Built with ruby-grape that supports DSL for RESTful apis <br/> - Database shard/replicas for dealing with hundreds of thousands of data <br/> - Angular10-based front-end integrated with angular material UI <br/>",
+    "desc": [
+      "Built with ruby-grape that supports DSL for RESTful apis",
+      "Database shard/replicas for dealing with hundreds of thousands of data",
+      "Angular10-based front-end integrated with angular material UI",
+    ],
     "link": "https://www.monsido.com",
     "techStack": [
        "Ruby on Rails", "Angular10", "PostgreSQL", "Angular Material UI"
@@ -343,7 +374,11 @@ export const PROJECTS = [
       "https://i.ibb.co/sqyYLHN/healthiq-3.png",
       "https://i.ibb.co/hyT5z7W/healthiq-4.png",
     ],
-    "descOverview": "- Built on ruby on rails + backboneJS <br/> - Hippa Compliance App <br/> - Insurance form management <br/>",
+    "desc": [
+      "Built on ruby on rails + backboneJS",
+      "Hippa Compliance App",
+      "Insurance form management",
+    ],
     "link": "https://www.healthiq.com",
     "techStack": [
        "Ruby on Rails", "BackboneJS", "MySQL"
@@ -354,7 +389,7 @@ export const PROJECTS = [
   },
   {
     "id":"openmined-courses",
-    "tag":"ExpressJS + ReactJS + Firebase",
+    "tag":"Firebase + ReactJS",
     "title": "Learn how privacy technology is changing our world and how you can lead the charge.",
     "landing": "https://i.ibb.co/ryy15z5/screencapture-courses-openmined-org-2021-03-24-04-26-09.png",
     "images":[
@@ -366,7 +401,12 @@ export const PROJECTS = [
       "https://i.ibb.co/ssRnBVh/screencapture-courses-openmined-org-users-dashboard-2021-03-24-04-26-43.png",
       "https://i.ibb.co/ryy15z5/screencapture-courses-openmined-org-2021-03-24-04-26-09.png"
     ],
-    "descOverview": "Learning platform offered by Openmined.org. <br/> Backend is bulit in Firebase clouding functions and firestore. Frontend is built in React and latest Hooks. It manages content using CMS.",
+    "desc": [
+      "Learning platform offered by Openmined.org.",
+      "Backend bulit in Firebase clouding functions and firestore.",
+      "Frontend built in React and latest Hooks.",
+      "Content management using CMS.",
+    ],
     "link": "https://courses.openmined.org/",
     "techStack": [
        "NodeJS", "Typescript", "Firebase", "Express", "React", "ChakraUI", "TailwindCSS"
@@ -407,7 +447,11 @@ export const PROJECTS = [
        "https://i.ibb.co/LYWsYKG/justaskme-4.png",
        "https://i.ibb.co/cb8P5fz/justaskme-5.png",
     ],
-    "descOverview": "Built on MERN stack. <br/> React Material UI integration. <br/> Stripe payment gateway integration.",
+    "desc": [
+      "Built on MERN stack.",
+      "React Material UI integration.",
+      "Stripe payment gateway integration.",
+    ],
     "techStack": [
        "ReactJS", "Redux", "React Material UI", "MongoDB", "Azure",
     ],
